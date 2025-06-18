@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bus pass apliction</title>
+
+</head>
+<body>
+   <center> <marquee behavior="scroll" direction="left" scrollamount="10" style="color: rgb(245, 248, 249); background-color: darkblue; font-size: 24px; font-weight: bold; border-radius: 100px; width: 1000px;  "></center>
+  TSRTC GENERAL BUS PASS APPLICATION &nbsp; &nbsp; &nbsp; &nbsp; TSRTC GENERAL BUS PASS APPLICATION &nbsp; &nbsp; &nbsp; &nbsp; TSRTC GENERAL BUS PASS APPLICATION
+</marquee>
+
+<form action="./submit.html" method="get">
+<br>
+<center><fieldset style="width: 820px;border-radius: 30px;  background-color: rgb(175, 205, 227);border-color: black; ">
+    <legend style="background-color: rgb(104, 104, 240); border-radius: 80px; height: 25px; font-size:larger;" >Applicant Details</legend>
+<table border="0" cellspacing="15" cellpadding="8">
+    <tr>
+        <td>Name *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Username" name="username" id="username" title="first letter must be capital" pattern="[A-Z][a-z]+" required></td>
+        <td>Guardian's Name *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="guraduan name" title="ypur guardian name" pattern="[a-z]+" required></td>
+    </tr>
+    <tr>
+        <td>Date of birth*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="dateofbirth" required></td>
+        <td>Gender*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="gender"  value="male" required>male
+             <input type="radio" name="gender" id="gender"  value="male" required>female
+        </td>
+    </tr>
+    <tr>
+        <td>Whatsapp No*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" title="enter your number " name="Whatsapp no." placeholder="+91 " pattern="+91[0-9]+{9}" required></td>
+        <td>Email id*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" title="example@gmail.com" name="gmail.com" pattern="[a-z]+@." required></td>
+    </tr>
+    <tr>
+        <td>Adhaar No*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" title="adhaar number" name="adhaar number" pattern="[0-9]+ " required></td>
+        <td>Photo*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="users photo" title="upload your photo" required></td>
+    </tr>
+    
+</table>
+</fieldset></center>
+<br>
+
+
+
+    <center><fieldset style="width: 820px; border-radius: 30px;  background-color: rgb(175, 205, 227);border-color: black;" >
+    <legend style="background-color: rgb(104, 104, 240); border-radius: 80px; height: 25px; font-size:larger;">Resedential Address Details</legend>
+<table border="0" cellspacing="14" cellpadding="8" style="padding-right: 170px;" >
+    <tr>
+        <td>Apllicant Address*<textarea name="text" id="" autofocus  placeholder="text hear..." rows="5" cols="25"></textarea>
+</td>
+        <td>District*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <select name="dev" id="">
+            <option value="select" disabled selected>---select---</option>
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="KARIMNAGAR">KARIMNAGAR</option>
+            <option value="WARANGAL">WARANGAL</option>
+        </select>
+
+</td>
+    </tr>
+    <tr>
+        <td>Mandal*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="dev" id="">
+            <option value="select" disabled selected>---select---</option>
+            <option value="HYDERABAD">KPBH PLASE 2</option>
+            <option value="KARIMNAGAR">TOWER CIRCLE</option>
+            <option value="WARANGAL">STATION</option>
+        </select></td>
+        <td>Village*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="dev" id="">
+            <option value="select" disabled selected>---select---</option>
+            <option value="HYDERABAD">KUKATPALLY</option>
+            <option value="KARIMNAGAR">AMMERPET</option>
+            <option value="WARANGAL">KPHB</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Pincode*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="pincode" name="pincode" pattern="/5[0-9]+"></td>
+        
+    </tr>
+    
+    
+</table>
+</fieldset></center>
+
+<br>
+    <center><fieldset style="width: 820px; border-radius: 30px;  background-color: rgb(175, 205, 227);border-color: black;" >
+    <legend style="background-color: rgb(104, 104, 240); border-radius: 80px; height: 25px; font-size:larger;">Resedential Address Details</legend>
+<table border="0" cellspacing="14" cellpadding="8" style="padding-right: 500px;" >
+    <tr>
+        <td>City* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="dev" id="">
+            <option value="HYDERABAD">HYDERABAD</option></td>
+            <td></td>
+             
+        
+    </tr>
+    <tr>
+        <td>Pass Type* <select name="dev" id="">
+            <option value="select">---select---</option>
+            <option value="GREATER PASS"></option>
+            <OPtion>METRO PASS</OPtion>
+            <OPtion>GENERAL PASS</OPtion>
+            <option >ORDINARY</option>
+        </select></td>
+        <td></td>
+    </tr>
+</table>
+</fieldset></center>
+
+
+
+
+
+<br>
+
+
+
+    <center><fieldset style="width: 820px; border-radius: 30px;  background-color: rgb(175, 205, 227);border-color: black;" >
+    <legend style="background-color: rgb(104, 104, 240); border-radius: 80px; height: 25px; font-size:larger;">Resedential Address Details</legend>
+<table border="0" cellspacing="14" cellpadding="8" style="padding-right: 400px;" >
+    <tr>
+        <td>Payment Mode* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="dev" id="">
+            <option value="---select---">---select---</option>
+            <option value="">Payment at counter</option>
+         
+        </select></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass Delivery Mode* <select name="" id="">
+            <option value="---select---">---select---</option>
+            <option value="">At counter   </option>
+        </select></td>
+        <td></td>
+    </tr>
+    
+</table>
+</fieldset></center><br>
+
+<table border="1" cellspacing="0" cellpadding="30" width="150" style="height: 30px; border-radius: 30px;">
+
+<tr><td style="font-size: x-large; background-color: rgb(235, 56, 56); border-radius: 30px; font-style: italic; color: aliceblue;" >dWr1gZ</td></tr>
+</table>
+<br>
+<input type="text" name="text" pattern="[a-z a-Z 0-9]+">
+
+
+
+
+<br>
+<br>
+<tr >
+        
+        <td><input type="submit" style="background-color: rgb(238, 72, 72); border-radius: 30px; width: 150px; height: 25px; font-size: larger;" required></td>
+    </tr>
+
+</form>
+
+      
+    
+</body>
+</html>
